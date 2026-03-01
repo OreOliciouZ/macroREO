@@ -1,0 +1,14 @@
+# Python
+.venv/
+
+# Build
+*.build/
+*.dist/
+*.onefile-build/
+*.exe
+
+# OS
+index.py
+desktop.ini
+macroREO.ico
+version.txt
