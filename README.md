@@ -8,11 +8,10 @@ MacroREO is a lightweight tool designed to record and playback mouse and keyboar
 
 - **Ultra-Compact UI:** A tiny **360x65px** toolbar that stays out of your way.
 - **Global Hotkeys:** Start, Stop, and Play your macros from the background using global system hooks.
-- **Smart Safety:** Prevents accidental playback while recording (and vice versa). Buttons lock automatically.
 - **Variable Speed:** Adjust playback speed from **0.5x** (slow) up to **10.0x** (super fast).
 - **Infinite Loop:** Continuous repetition mode for automated tasks.
 - **Visual Feedback:** Integrated status warnings directly in the window title (e.g., if you try to play without loading a file).
-- **Save & Load:** Store your recorded macros as human-readable **`.oreo`** (JSON) files.
+- **Save & Load:** Store your recorded macros as readable **`.oreo`** (JSON) files.
 - **Portable:** No installation required. Just run the `.exe`.
 
 ## ⌨️ Default Hotkeys
