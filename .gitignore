@@ -1,14 +1,24 @@
-# Python
-.venv/
-
-# Build
-*.build/
-*.dist/
-*.onefile-build/
-*.exe
-
-# OS
-index.py
+# --- IDE & System ---
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 desktop.ini
-macroREO.ico
+Thumbs.db
 version.txt
+
+# --- CODE ---
+*.cs
+*.xaml
+*.csproj
+*.sln
+macroREO.ico
+
+# --- UPLOADS ---
+!README.md
+!LICENSE
+!.gitignore
