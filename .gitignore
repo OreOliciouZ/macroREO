@@ -1,14 +1,14 @@
 # --- IDE & System ---
-.vs/
-.vscode/
+assets/
 bin/
 obj/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
-desktop.ini
-Thumbs.db
+
+# --- ASSETS ---
+macroREO.ico
 version.txt
 
 # --- CODE ---
@@ -16,7 +16,6 @@ version.txt
 *.xaml
 *.csproj
 *.sln
-macroREO.ico
 
 # --- UPLOADS ---
 !README.md
