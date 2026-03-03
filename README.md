@@ -1,4 +1,4 @@
-# MacroREO 🔴▶️
+# MacroREO ▶️
 
 <p align="center">
   <strong>The Lightest & Fastest Native Macro Recorder for Windows.</strong><br>
