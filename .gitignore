@@ -9,6 +9,7 @@ obj/
 
 # --- ASSETS ---
 macroREO.ico
+desktop.ini
 version.txt
 
 # --- CODE ---
@@ -20,4 +21,3 @@ version.txt
 # --- UPLOADS ---
 !README.md
 !LICENSE
-!.gitignore
