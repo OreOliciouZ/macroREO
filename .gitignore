@@ -17,7 +17,3 @@ version.txt
 *.xaml
 *.csproj
 *.sln
-
-# --- UPLOADS ---
-!README.md
-!LICENSE
