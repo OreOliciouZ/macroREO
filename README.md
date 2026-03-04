@@ -1,4 +1,4 @@
-# MacroREO 🔴▶️
+# MacroREO ▶️
 
 <p align="center">
   <strong>The Lightest & Fastest Native Macro Recorder for Windows.</strong><br>
@@ -18,7 +18,7 @@
 MacroREO has been completely rewritten in native C# to deliver a seamless Windows experience that eliminates the bloat of traditional recorders.
 
 - **Instantaneous Launch:** Zero load time. By leveraging the native Windows environment, the UI pops up the millisecond you click it.
-- **Ultra-Lightweight:** At just **~403 KB**, it provides heavy-duty functionality in a tiny package without any external dependencies.
+- **Ultra-Lightweight:** At just **~403 KB**, it provides heavy-duty functionality in a tiny package without external dependencies.
 - **Structured Logging:** The custom `.oreo` format utilizes clean JSON pathing with dedicated `start` and `finish` markers for perfect timing accuracy.
 
 ---
@@ -26,13 +26,29 @@ MacroREO has been completely rewritten in native C# to deliver a seamless Window
 ## ✨ Key Features
 
 - 🖥️ **Modern Compact UI:** A sleek, high-DPI 380x95px toolbar designed to stay out of your way.
+- 🛡️ **Auto-Admin Detection:** Automatically detects if the app is running with elevated privileges (required for games).
 - ⌨️ **Global System Hooks:** Control your macros with global hotkeys even while working in other applications.
-- 🛡️ **Smart Exclusion:** Intelligent window-detection logic prevents the app from recording its own button interactions.
+- 🚫 **Smart Exclusion:** Intelligent window-detection logic prevents the app from recording its own button interactions.
 - 📥 **Background Mode:** Fully supports System Tray minimization with **1-click restore** functionality.
 - ⚡ **Variable Speed:** Dial in your workflow with playback speeds ranging from **0.5x** to **10.0x**.
 - 🔄 **Infinite Loop:** A modern, mobile-style toggle switch for effortless task repetition.
 - 🟢 **Live Status & Updates:** Stay informed with real-time status logging and automatic GitHub update notifications.
 - 💾 **Standard Data Format:** Macros are stored in readable, portable **`.oreo`** (JSON) files.
+
+---
+
+## 🛡️ Standard vs. Admin Mode
+
+MacroREO displays its current mode directly in the window title bar:
+
+| Mode | Description |
+| :--- | :--- |
+| **Standard Mode** | Perfect for regular desktop tasks, web browsing, and office work. |
+| **Admin Mode** | Required for **Games**, Task Manager, or installing software. |
+
+> [!IMPORTANT]
+> If your macro **does not work inside a game**, the game likely runs with higher privileges than the recorder. 
+> **Solution:** Close MacroREO, right-click the `.exe`, and select **"Run as Administrator"**.
 
 ---
 
