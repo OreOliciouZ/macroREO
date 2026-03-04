@@ -1,4 +1,4 @@
-# MacroREO ▶️
+# MacroREO 🔴▶️
 
 <p align="center">
   <strong>The Lightest & Fastest Native Macro Recorder for Windows.</strong><br>
@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge" alt="C#">
   <img src="https://img.shields.io/badge/Platform-Windows-0078d7?style=for-the-badge&logo=windows" alt="Windows">
-  <img src="https://img.shields.io/badge/Size-~523_KB-success?style=for-the-badge" alt="Size">
+  <img src="https://img.shields.io/badge/Size-~520_KB-success?style=for-the-badge" alt="Size">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
 </p>
 
@@ -18,7 +18,7 @@
 MacroREO has been completely rewritten in native C# to deliver a seamless Windows experience that eliminates the bloat of traditional recorders.
 
 - **Instantaneous Launch:** Zero load time. By leveraging the native Windows environment, the UI pops up the millisecond you click it.
-- **Ultra-Lightweight:** At just **~523 KB**, it provides heavy-duty functionality in a tiny package.
+- **Ultra-Lightweight:** At just **~403 KB**, it provides heavy-duty functionality in a tiny package without any external dependencies.
 - **Structured Logging:** The custom `.oreo` format utilizes clean JSON pathing with dedicated `start` and `finish` markers for perfect timing accuracy.
 
 ---
@@ -62,7 +62,7 @@ MacroREO has been completely rewritten in native C# to deliver a seamless Window
 ## 📦 Requirements
 
 - **OS:** Windows 10 or Windows 11
-- **Runtime:** [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Native Windows component)
+- **Runtime:** [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Standard on most modern Windows systems)
 
 ---
 
