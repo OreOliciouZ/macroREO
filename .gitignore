@@ -6,6 +6,7 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+*.exe
 
 # --- ASSETS ---
 macroREO.ico
